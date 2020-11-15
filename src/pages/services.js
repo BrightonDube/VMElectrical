@@ -16,18 +16,7 @@ export default function Services() {
     <Layout>
       <Row className="no-gutters">
         <Col xs={12} sm={6} className="p-5">
-          <h1>Download Our Menu</h1>
-          <img src={menu} alt="menu" className="d-block w-100 img-fluid" />
-
-          <Button>
-            <a
-              href={data.file.publicURL}
-              download
-              style={{ textDecoration: "none", color: "#FFF" }}
-            >
-              Download {data.file.name}
-            </a>
-          </Button>
+          <h1>What we Can do for you.</h1>
         </Col>
         <Col xs={12} sm={6} style={{ backgroundColor: "#94CDD5" }}>
           <Carousel fade interval={1000} indicators={false}>
@@ -52,4 +41,3 @@ export default function Services() {
     </Layout>
   );
 }
-e;
