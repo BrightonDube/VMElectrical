@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/Layout"
-import { Row, Col } from "react-bootstrap"
-import video from "../images/Making Coffee Montage Video - Sony A7s Metabones Test Footage Canon 50mm 1.4 + Macro Lens.mp4"
+import React from "react";
+import Layout from "../components/Layout";
+import { Row, Col } from "react-bootstrap";
+import video from "../images/video2.mp4";
 export default function About() {
   return (
     <Layout>
@@ -41,5 +41,5 @@ export default function About() {
         </Col>
       </Row>
     </Layout>
-  )
+  );
 }

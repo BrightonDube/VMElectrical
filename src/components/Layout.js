@@ -86,14 +86,14 @@ export default function Layout({ children }) {
               <Logo />
             </Link>
 
-            <Span>
+            {/* <Span>
               <Link
                 to="/services/"
                 className="menu-point d-none d-sm-inline-block"
               >
                 SERVICES
               </Link>
-            </Span>
+            </Span> */}
           </Col>
         </Row>
       </Container>

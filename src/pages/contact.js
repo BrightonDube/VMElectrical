@@ -1,31 +1,31 @@
-import React, { useState } from "react"
-import Layout from "../components/Layout"
-import Social from "../components/Social"
-import { Row, Col, Form, Button } from "react-bootstrap"
+import React, { useState } from "react";
+import Layout from "../components/Layout";
+import Social from "../components/Social";
+import { Row, Col, Form, Button } from "react-bootstrap";
 
 export default function Contact() {
-  const [validated, setValidated] = useState(false)
-  const handleSubmit = event => {
-    const form = event.currentTarget
+  const [validated, setValidated] = useState(false);
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
     if (form.checkValidity() === false) {
-      event.preventDefault()
-      event.stopPropagation()
+      event.preventDefault();
+      event.stopPropagation();
     }
 
-    setValidated(true)
-  }
+    setValidated(true);
+  };
   return (
     <Layout>
       <Row className="no-gutters">
         <Col className="col-12 col-sm-5 text-center align-self-center">
           <h1>Contact</h1>
           <h5>Address</h5>
-          <p>4 Walton Street.</p>
-          <p>WashingtonDC, DC 00000</p>
+          <p>12676 Mampho Street</p>
+          <p>Ivory Park, Midrand 1693</p>
           <h5>Email</h5>
-          <p>info@tazzacafe.com</p>
+          <p>info@vmelectrical.co.za</p>
           <h5>Phone</h5>
-          <p>123-456-7890</p>
+          <p>0817039117</p>
           <Social />
         </Col>
         <Col className="col-12 col-sm-7 align-self-center p-5">
@@ -80,5 +80,5 @@ export default function Contact() {
         </Col>
       </Row>
     </Layout>
-  )
+  );
 }

@@ -1,14 +1,14 @@
 //jshint esversion: 9
-import React from "react"
-import Layout from "../components/Layout"
-import { Container, Row, Col, Carousel } from "react-bootstrap"
-import image1 from "../images/fried-eggs-846367_640.jpg"
-import image2 from "../images/bread-2178874_640.jpg"
-import image3 from "../images/close-up-1854245_640.jpg"
-import image4 from "../images/meal-918638_640.jpg"
-import image5 from "../images/michael-browning-MtqG1lWcUw0-unsplash.jpg"
-import video from "../images/Insomnia - Restaurant Promo Video.mp4"
-import video3 from "../images/MVI_5662__1_.mp4"
+import React from "react";
+import Layout from "../components/Layout";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
+import image1 from "../images/image1.jpeg";
+import image2 from "../images/image2.jpeg";
+import image3 from "../images/image3.jpeg";
+import image4 from "../images/image4.jpeg";
+import image5 from "../images/image5.jpeg";
+import video from "../images/video.mp4";
+import video3 from "../images/video1.mp4";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
             </video>
           </Col>
           <Col className="p-4 text-center align-self-center col-12 col-md-4 order-xs-last order-sm-first">
-            <h1>The Home of Fresh Food</h1>
+            <h1>VM Electrical and Construction</h1>
             <h3 className="text-justify">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
               ratione repellendus doloribus quo.
@@ -40,7 +40,7 @@ export default function Home() {
           style={{ backgroundColor: "#3A7A82", color: "#F6CA9D" }}
         >
           <Col className="text-center p-4 col-12 col-md-4 order-last align-self-center">
-            <h1>The Home of Fresh Food</h1>
+            <h1>The Best Electrical Services in Gauteng</h1>
             <h4>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
               ratione repellendus doloribus quo, in commodi voluptatum provident
@@ -72,7 +72,7 @@ export default function Home() {
             <img src={image5} alt="" className="img-fluid" />
           </Col>
           <Col className="col-7 order-md-first col-md-4 text-center align-self-center ">
-            <h1>Lorem Dolarem</h1>
+            <h1>Construction</h1>
             <h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               perspiciatis accusamus{" "}
@@ -125,7 +125,7 @@ export default function Home() {
             md={4}
             className="text-center align-self-center text-warning"
           >
-            <h1>Fresh from the Kitchen</h1>{" "}
+            <h1>Fast and Efficient Service </h1>{" "}
             <h5>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Obcaecati saepe beatae commodi labore, amet.
@@ -134,5 +134,5 @@ export default function Home() {
         </Row>
       </Container>
     </Layout>
-  )
+  );
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { Col, Row, Card } from "react-bootstrap";
-import image1 from "../images/fried-eggs-846367_640.jpg";
-import image2 from "../images/bread-2178874_640.jpg";
-import image3 from "../images/close-up-1854245_640.jpg";
-import image4 from "../images/meal-918638_640.jpg";
+import image1 from "../images/image1.jpeg";
+import image2 from "../images/image2.jpeg";
+import image3 from "../images/image3.jpeg";
+import image4 from "../images/image4.jpeg";
 import { Link } from "gatsby";
 import Social from "./Social";
 
