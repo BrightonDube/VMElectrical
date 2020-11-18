@@ -69,7 +69,11 @@ export default function Home() {
                 <img className="d-block w-100" src={image3} alt="First slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image2} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={image2}
+                  alt="Second slide"
+                />
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={slide8} alt="Third slide" />
@@ -78,7 +82,7 @@ export default function Home() {
                 <img
                   className="d-block w-100"
                   src={slide10}
-                  alt="Third slide"
+                  alt="Fourth slide"
                 />
               </Carousel.Item>
             </Carousel>

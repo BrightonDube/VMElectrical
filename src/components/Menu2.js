@@ -89,7 +89,7 @@ export default function Menu2() {
           <Row>
             <Col className="m-0 p-0 text-center">
               <Card>
-                <Link to="/index/" className="remove-style">
+                <Link to="/" className="remove-style">
                   <Card.Img variant="top" src={image4} className="img-hover" />
                   <Card.Footer className="m-0 p-0">
                     <h1 className="menu-text m-0"> HOME </h1>
@@ -111,7 +111,7 @@ export default function Menu2() {
           <Row>
             <Col className="m-0 p-0 text-center">
               <Card>
-                <Link to="/Services/" className="remove-style">
+                <Link to="/services/" className="remove-style">
                   <Card.Img variant="top" src={image2} className="img-hover" />
 
                   <Card.Footer className="m-0 p-0">

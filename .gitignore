@@ -44,6 +44,7 @@ e2e-tests/gatsby-pnp/
 .cache/
 .netlify
 .Rhistory
+build
 
 # IDE specific
 .idea/
