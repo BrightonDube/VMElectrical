@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import video from "../images/video2.mp4";
 export default function About() {
   return (
@@ -9,23 +9,18 @@ export default function About() {
         <Col xs={12} sm={5} className="px-4">
           <h1>About Us!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            itaque temporibus totam alias nam? Expedita minus esse atque
-            dignissimos iure blanditiis? Fugiat qui earum voluptas accusamus
-            iusto totam magnam doloribus!\
+            VM lectrical and Construction is the go-to provider for all things
+            electrical and construction in South Africa. Servicing the
+            commercial and residential markets, we are an electrical and
+            construction company that offers repairs, installations and upgrades
+            – delivering excellent work, at competitive prices, every time!
+            Whether it’s rewiring an entire office block or installing a ceiling
+            fan, our happy customers know that VM Electrical is the one to call.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            itaque temporibus totam alias nam? Expedita minus esse atque
-            dignissimos iure blanditiis? Fugiat qui earum voluptas accusamus
-            iusto totam magnam doloribus!\
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            itaque temporibus totam alias nam? Expedita minus esse atque
-            dignissimos iure blanditiis? Fugiat qui earum voluptas accusamus
-            iusto totam magnam doloribus!\
-          </p>
+          <h3>Get a FAST and FREE Quote</h3>
+          <Button variant="success" href="tel: 081 703 9117">
+            Call us now!
+          </Button>
         </Col>
         <Col xs={12} sm={7}>
           <video

@@ -9,6 +9,12 @@ import image4 from "../images/image4.jpeg";
 import image5 from "../images/image5.jpeg";
 import video from "../images/video.mp4";
 import video3 from "../images/video1.mp4";
+import slide5 from "../images/roofers-2891664_1280.jpg";
+import slide6 from "../images/alone-2297211_1280.jpg";
+import slide7 from "../images/pexels-fwstudio-172276.jpg";
+import slide8 from "../images/electrician-2728122_1280.jpg";
+import slide9 from "../images/pexels-bidvine-1249611.jpg";
+import slide10 from "../images/tool-2766835_1280.jpg";
 
 export default function Home() {
   return (
@@ -30,8 +36,11 @@ export default function Home() {
           <Col className="p-4 text-center align-self-center col-12 col-md-4 order-xs-last order-sm-first">
             <h1>VM Electrical and Construction</h1>
             <h3 className="text-justify">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
-              ratione repellendus doloribus quo.
+              VM Electrical and Construction is the go-to electrician and
+              construction services provider in South Africa. Servicing the
+              commercial and residential markets we offer repairs, installations
+              and upgrades – delivering excellent work, at competitive prices,
+              every time!
             </h3>
           </Col>
         </Row>
@@ -40,12 +49,19 @@ export default function Home() {
           style={{ backgroundColor: "#3A7A82", color: "#F6CA9D" }}
         >
           <Col className="text-center p-4 col-12 col-md-4 order-last align-self-center">
-            <h1>The Best Electrical Services in Gauteng</h1>
-            <h4>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
-              ratione repellendus doloribus quo, in commodi voluptatum provident
-              doloremque consequatur possimus sapiente.
-            </h4>
+            <h1>The Best Electrical Services Provider in Gauteng</h1>
+            <h3>
+              We offer phase balancing, MV Cable Joints and cable termination,
+              house tubing and wiring.
+            </h3>
+            <h5 className="text-justify">
+              Electrical installations and complex electrical wiring and
+              dangerous activities are best left to trained experts. VM
+              Electrical has licensed electricians in electrical installations
+              and complex electric wiring, with years of experience. we are
+              available 24/7 to assist you – be it at home or your business
+              installation requirements.
+            </h5>
           </Col>
           <Col xs={12} lg={8}>
             <Carousel fade interval={1000} indicators={false}>
@@ -56,10 +72,14 @@ export default function Home() {
                 <img className="d-block w-100" src={image2} alt="Third slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image1} alt="Third slide" />
+                <img className="d-block w-100" src={slide8} alt="Third slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image4} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={slide10}
+                  alt="Third slide"
+                />
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -72,10 +92,13 @@ export default function Home() {
             <img src={image5} alt="" className="img-fluid" />
           </Col>
           <Col className="col-7 order-md-first col-md-4 text-center align-self-center ">
-            <h1>Construction</h1>
+            <h1>Construction Services</h1>
             <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              perspiciatis accusamus{" "}
+              For all your building concerns from setting out columns, offices,
+              block houses, setting out bases, shuttering, stair-cases, dry
+              walling door fittings, wooden floors and tiles, we have the best
+              professionals to do the job for you at the most competetive
+              prices.
             </h3>
           </Col>
 
@@ -83,10 +106,10 @@ export default function Home() {
             className="col-5 col-md-2 text-center align-self-stretch order-md-last"
             style={{ backgroundColor: "#3D550C" }}
           >
-            <h1>Lorem Dolarem</h1>
+            <h1>Decking Services</h1>
             <h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              perspiciatis accusamus{" "}
+              We offer quality yet affordable decking solutions in and around
+              Gauteng.
             </h4>
           </Col>
         </Row>
@@ -110,13 +133,19 @@ export default function Home() {
                 <img className="d-block w-100" src={image3} alt="First slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image2} alt="Third slide" />
+                <img className="d-block w-100" src={slide5} alt="Third slide" />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={image1} alt="Third slide" />
+                <img className="d-block w-100" src={slide6} alt="Third slide" />
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={image4} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide7} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide9} alt="Third slide" />
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -127,8 +156,8 @@ export default function Home() {
           >
             <h1>Fast and Efficient Service </h1>{" "}
             <h5>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Obcaecati saepe beatae commodi labore, amet.
+              We believe in providing the best service to our valued clients and
+              speed and efficiency are our main strength.
             </h5>
           </Col>
         </Row>

@@ -25,7 +25,7 @@ export default function Contact() {
           <h5>Email</h5>
           <p>info@vmelectrical.co.za</p>
           <h5>Phone</h5>
-          <p>0817039117</p>
+          <a href="tel: 081 703 9117">081 703 9117</a>
           <Social />
         </Col>
         <Col className="col-12 col-sm-7 align-self-center p-5">

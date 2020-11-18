@@ -101,12 +101,14 @@ export default function Layout({ children }) {
         {children}
         <Row className="no-gutters newsletter">
           <Col className="mx-auto my-5 col-md-8 text-center align-self-center">
-            <h1>
-              Sign up for our Newsletter and never miss out on any of our
-              promos.
-            </h1>
-            <Button variant="success" className="px-5">
-              Sign Up
+            <h1>GET A FREE QUOTE & PROFESSIONAL SERVICE TODAY!</h1>
+            <Button
+              variant="success"
+              size="lg"
+              href="tel: 081 703 9117"
+              className="px-5"
+            >
+              Call us Now!
             </Button>
           </Col>
         </Row>
