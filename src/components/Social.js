@@ -20,20 +20,20 @@ export default function Social() {
   return (
     <Wrapper>
       <a
-        href="https//:facebook.com/brightondube"
+        href="https://facebook.com/brightondube"
         className="mr-5"
         id="facebook"
       >
         <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
       </a>
       <a
-        href="https//:instagram.com/brightondube"
+        href="https://instagram.com/brightondube"
         className="mr-5"
         id="instagram"
       >
         <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
       </a>
-      <a href="https//:twitter.com/brightondube" className="mr-5" id="twitter">
+      <a href="https://twitter.com/brightondube" className="mr-5" id="twitter">
         <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
       </a>
     </Wrapper>
