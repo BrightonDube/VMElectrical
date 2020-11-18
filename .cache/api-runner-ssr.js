@@ -8,8 +8,8 @@ var plugins = [{
       plugin: require('/home/insculpt/Documents/ReactApps/Mehlu_li/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["limelight","source sans pro:300,400,400i,700"],"display":"swap"},
     },{
-      plugin: require('/home/insculpt/Documents/ReactApps/Mehlu_li/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Montserrat","variants":["400","700"]},{"family":"Roboto","subsets":["latin"]},{"family":"Kaushan Script","variants":["400"]}]},
+      plugin: require('/home/insculpt/Documents/ReactApps/Mehlu_li/node_modules/gatsby-plugin-webfonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":{"google":[{"family":"Montserrat","variants":["400","700"]},{"family":"Roboto","subsets":["latin"]},{"family":"Kaushan Script","variants":["400"]}]}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
