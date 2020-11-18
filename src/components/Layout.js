@@ -114,7 +114,7 @@ export default function Layout({ children }) {
         </Row>
         <Row className="no-gutters footer">
           <Col xs={12} sm={6} className="my-5 text-center align-self-center">
-            <span className="menu-point">&copy; {year} </span>
+            <span className="menu-point">&copy; Brighton {year} </span>
             <Link to="/" className="menu-point">
               Home
             </Link>
