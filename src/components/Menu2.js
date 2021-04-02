@@ -62,6 +62,11 @@ const Wrapper = styled.div`
     -o-transform: translatZ(0) scale(1.2); /* Opera */
     transform: translatZ(0) scale(1.2);
   }
+  @media only screen and (max-width: 575px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
 
   .img-hover:hover:after {
     content: "";

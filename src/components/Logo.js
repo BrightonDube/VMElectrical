@@ -3,7 +3,7 @@ import styled from "styled-components";
 import logo from "../images/logo.png";
 
 const Wrap = styled.div`
-  width: 140px;
+  width: 250px;
   margin-left: 70px;
   display: inline-block;
   position: relative;
