@@ -120,10 +120,9 @@ export default function Home() {
             className="col-5 col-md-2 text-center align-self-stretch order-md-last"
             style={{ backgroundColor: "#3D550C" }}
           >
-            <h1>Decking Services</h1>
+            <h1>Steel Fixing</h1>
             <h4>
-              We offer quality yet affordable decking solutions in and around
-              Gauteng.
+              We offer quality yet affordable steel fixing solutions in and around Gauteng. Out personnel is highly trained and experienced to deal with any project size.
             </h4>
           </Col>
         </Row>
