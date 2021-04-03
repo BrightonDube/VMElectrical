@@ -9,12 +9,16 @@ import image4 from "../images/image4.jpeg";
 import image5 from "../images/image5.jpeg";
 import video from "../images/video.mp4";
 import video3 from "../images/video1.mp4";
-import slide5 from "../images/roofers-2891664_1280.jpg";
-import slide6 from "../images/alone-2297211_1280.jpg";
-import slide7 from "../images/pexels-fwstudio-172276.jpg";
-import slide8 from "../images/electrician-2728122_1280.jpg";
-import slide9 from "../images/pexels-bidvine-1249611.jpg";
-import slide10 from "../images/tool-2766835_1280.jpg";
+import slide5 from "../images/krugersdorp.jpeg";
+import slide6 from "../images/lights.jpeg";
+import slide7 from "../images/lights2.jpeg";
+import slide8 from "../images/steelfixing/sf1.jpeg";
+import slide9 from "../images/meh1.jpeg";
+import slide10 from "../images/meh2.jpeg";
+import slide11 from "../images/bbf1.jpeg"
+import slide12 from "../images/box.jpeg";
+import slide13 from "../images/bricklayers.jpeg";
+import slide14 from "../images/steelfixing/sf2.jpeg";
 
 export default function Home() {
   return (
@@ -72,6 +76,13 @@ export default function Home() {
                 <img
                   className="d-block w-100"
                   src={image2}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={image1}
                   alt="Second slide"
                 />
               </Carousel.Item>
@@ -150,6 +161,21 @@ export default function Home() {
               </Carousel.Item>
               <Carousel.Item>
                 <img className="d-block w-100" src={slide9} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide10} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide11} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide12} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide13} alt="Third slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={slide14} alt="Third slide" />
               </Carousel.Item>
             </Carousel>
           </Col>

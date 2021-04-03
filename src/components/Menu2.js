@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { Col, Row, Card } from "react-bootstrap";
-import image1 from "../images/image1.jpeg";
-import image2 from "../images/image2.jpeg";
-import image3 from "../images/image3.jpeg";
-import image4 from "../images/image4.jpeg";
+import image1 from "../images/electrician-2728122_1280.jpg";
+import image2 from "../images/wiring2.jpeg";
+import image3 from "../images/wiring.jpeg";
+import image4 from "../images/wiring2.jpeg";
 import { Link } from "gatsby";
 import Social from "./Social";
 
@@ -95,7 +95,7 @@ export default function Menu2() {
             <Col className="m-0 p-0 text-center">
               <Card>
                 <Link to="/" className="remove-style">
-                  <Card.Img variant="top" src={image4} className="img-hover" />
+                  <Card.Img variant="top" src={image1} className="img-hover" />
                   <Card.Footer className="m-0 p-0">
                     <h1 className="menu-text m-0"> HOME </h1>
                   </Card.Footer>
@@ -105,7 +105,7 @@ export default function Menu2() {
             <Col className="m-0 p-0 text-center">
               <Card>
                 <Link to="/about/" className="remove-style">
-                  <Card.Img variant="top" src={image3} className="img-hover" />
+                  <Card.Img variant="top" src={image2} className="img-hover" />
                   <Card.Footer className="m-0 p-0">
                     <h1 className="menu-text m-0">ABOUT</h1>
                   </Card.Footer>
@@ -117,7 +117,7 @@ export default function Menu2() {
             <Col className="m-0 p-0 text-center">
               <Card>
                 <Link to="/services/" className="remove-style">
-                  <Card.Img variant="top" src={image2} className="img-hover" />
+                  <Card.Img variant="top" src={image3} className="img-hover" />
 
                   <Card.Footer className="m-0 p-0">
                     <h1 className="menu-text m-0">SERVICES</h1>
@@ -128,7 +128,7 @@ export default function Menu2() {
             <Col className="m-0 p-0 text-center">
               <Card>
                 <Link to="/contact/" className="remove-style">
-                  <Card.Img variant="top" src={image1} className="img-hover" />
+                  <Card.Img variant="top" src={image4} className="img-hover" />
                   <Card.Footer className="m-0 p-0">
                     <h1 className="menu-text m-0">CONTACT</h1>
                   </Card.Footer>

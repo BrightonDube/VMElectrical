@@ -2,17 +2,17 @@ import React from "react";
 import Layout from "../components/Layout";
 import { Row, Col, Carousel } from "react-bootstrap";
 import { useStaticQuery, graphql } from "gatsby";
-import slide1 from "../images/image1.jpeg";
+import slide1 from "../images/bbf1.jpeg";
 import slide2 from "../images/image2.jpeg";
 import slide3 from "../images/image3.jpeg";
 import slide4 from "../images/image4.jpeg";
-import slide5 from "../images/roofers-2891664_1280.jpg";
-import slide6 from "../images/alone-2297211_1280.jpg";
-import slide7 from "../images/pexels-fwstudio-172276.jpg";
-import slide8 from "../images/electrician-2728122_1280.jpg";
-import slide9 from "../images/pexels-bidvine-1249611.jpg";
+import slide5 from "../images/steelfixing/sf1.jpeg";
+import slide6 from "../images/steelfixing/sf2.jpeg";
+import slide7 from "../images/steelfixing/sf3.jpeg";
+import slide8 from "../images/steelfixing/sf4.jpeg";
+import slide9 from "../images/steelfixing/sf5.jpeg";
 import image5 from "../images/image5.jpeg";
-import slide10 from "../images/staircase-347318_1280.jpg";
+import slide10 from "../images/steelfixing/wsf1.jpeg";
 
 export default function Services() {
   const data = useStaticQuery(graphql`
@@ -87,17 +87,17 @@ export default function Services() {
         </Col>
         <Col className="col-12 col-md-5 align-self-center ">
           <div className="offset-1">
-            <h2>Construction Services</h2>
+            <h2>Other Services</h2>
             <ul>
-              <li>Building</li>
-              <li>Setting out columns</li>
-              <li>Setting out bases</li>
-              <li>Shuttering</li>
-              <li>Staircases</li>
-              <li>Decking</li>
+              <li>Bricklaying</li>
+              <li>Steel Fixing</li>
+              <li>Roofing</li>
+              <li>Renovations</li>
+              <li>Plumbing</li>
+              <li>Painting</li>
               <li>Dry Walling</li>
               <li>Door Fittings</li>
-              <li>Wooden Floors and Tiles</li>
+              <li>Camera Installations</li>
             </ul>
           </div>
         </Col>
