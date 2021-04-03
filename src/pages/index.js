@@ -38,9 +38,9 @@ export default function Home() {
             </video>
           </Col>
           <Col className="p-4 text-center align-self-center col-12 col-md-4 order-xs-last order-sm-first">
-            <h1>VM Electrical and Construction</h1>
+            <h1>IME Solutions</h1>
             <h3 className="text-justify">
-              VM Electrical and Construction is the go-to electrician and
+              IME Solutions is the go-to electrician and
               construction services provider in South Africa. Servicing the
               commercial and residential markets we offer repairs, installations
               and upgrades – delivering excellent work, at competitive prices,
@@ -60,8 +60,7 @@ export default function Home() {
             </h3>
             <h5 className="text-justify">
               Electrical installations and complex electrical wiring and
-              dangerous activities are best left to trained experts. VM
-              Electrical has licensed electricians in electrical installations
+              dangerous activities are best left to trained experts. IME Solutions has licensed electricians in electrical installations
               and complex electric wiring, with years of experience. we are
               available 24/7 to assist you – be it at home or your business
               installation requirements.

@@ -9,7 +9,7 @@ export default function About() {
         <Col xs={12} sm={5} className="px-4">
           <h1>About Us!</h1>
           <p>
-            VM lectrical and Construction is the go-to provider for all things
+            IME Solutions is the go-to provider for all things
             electrical and construction in South Africa. Servicing the
             commercial and residential markets, we are an electrical and
             construction company that offers repairs, installations and upgrades

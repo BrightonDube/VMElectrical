@@ -23,7 +23,7 @@ export default function Contact() {
           <p>12676 Mampho Street</p>
           <p>Ivory Park, Midrand 1693</p>
           <h5>Email</h5>
-          <p>info@vmelectrical.co.za</p>
+          <p>info@ime96solutions.co.za</p>
           <h5>Phone</h5>
           <a href="tel: 081 703 9117">081 703 9117</a>
           <Social />
