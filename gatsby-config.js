@@ -50,8 +50,8 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: `Victor M Electrical & Construction`,
-    siteUrl: `https://www.vmelectrical.co.za`,
+    title: `IME 96 Solutions`,
+    siteUrl: `https://www.ime96solutions.co.za`,
     description: `For all electrical installations`,
   },
 };
