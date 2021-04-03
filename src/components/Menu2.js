@@ -66,6 +66,9 @@ const Wrapper = styled.div`
     h1 {
       font-size: 2rem;
     }
+    .menu-text {
+      font-size: 2rem;
+    }
   }
 
   .img-hover:hover:after {
