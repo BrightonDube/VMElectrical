@@ -105,25 +105,25 @@ export default function Home() {
           <Col className="col-12 col-md-6">
             <img src={image5} alt="" className="img-fluid" />
           </Col>
-          <Col className="col-7 order-md-first col-md-4 text-center align-self-center ">
-            <h1>Construction Services</h1>
-            <h3>
+          <Col className="col-12 order-md-first col-md-4 text-center align-self-center ">
+            <h2>Construction Services</h2>
+            <h4>
               For all your building concerns from setting out columns, offices,
               block houses, setting out bases, shuttering, stair-cases, dry
               walling door fittings, wooden floors and tiles, we have the best
               professionals to do the job for you at the most competetive
               prices.
-            </h3>
+            </h4>
           </Col>
 
           <Col
-            className="col-5 col-md-2 text-center align-self-stretch order-md-last"
+            className="col-12 col-md-2 text-center align-self-center h-100 order-md-last"
             style={{ backgroundColor: "#3D550C" }}
           >
             <h1>Steel Fixing</h1>
-            <h4>
+            <h5>
               We offer quality yet affordable steel fixing solutions in and around Gauteng. Out personnel is highly trained and experienced to deal with any project size.
-            </h4>
+            </h5>
           </Col>
         </Row>
         <Row className="no-gutters">
